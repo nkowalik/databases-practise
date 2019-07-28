@@ -1,0 +1,14 @@
+E:\CitiesApi\CitiesApi\bin\Debug\netcoreapp2.1\CitiesApi.deps.json
+E:\CitiesApi\CitiesApi\bin\Debug\netcoreapp2.1\CitiesApi.runtimeconfig.json
+E:\CitiesApi\CitiesApi\bin\Debug\netcoreapp2.1\CitiesApi.runtimeconfig.dev.json
+E:\CitiesApi\CitiesApi\bin\Debug\netcoreapp2.1\CitiesApi.dll
+E:\CitiesApi\CitiesApi\bin\Debug\netcoreapp2.1\CitiesApi.pdb
+E:\CitiesApi\CitiesApi\obj\Debug\netcoreapp2.1\CitiesApi.csprojAssemblyReference.cache
+E:\CitiesApi\CitiesApi\obj\Debug\netcoreapp2.1\CitiesApi.csproj.CoreCompileInputs.cache
+E:\CitiesApi\CitiesApi\obj\Debug\netcoreapp2.1\CitiesApi.RazorAssemblyInfo.cache
+E:\CitiesApi\CitiesApi\obj\Debug\netcoreapp2.1\CitiesApi.RazorAssemblyInfo.cs
+E:\CitiesApi\CitiesApi\obj\Debug\netcoreapp2.1\CitiesApi.AssemblyInfoInputs.cache
+E:\CitiesApi\CitiesApi\obj\Debug\netcoreapp2.1\CitiesApi.AssemblyInfo.cs
+E:\CitiesApi\CitiesApi\obj\Debug\netcoreapp2.1\CitiesApi.RazorTargetAssemblyInfo.cache
+E:\CitiesApi\CitiesApi\obj\Debug\netcoreapp2.1\CitiesApi.dll
+E:\CitiesApi\CitiesApi\obj\Debug\netcoreapp2.1\CitiesApi.pdb
