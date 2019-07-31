@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using CitiesApi.Database;
 using CitiesApi.Model;
 using Microsoft.AspNetCore.Mvc;
@@ -12,16 +13,24 @@ namespace CitiesApi.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public Task<List<City>> Get()
         {
-            return new string[] { "value1", "value2" };
+            var client = Connector.Connect();
+            IMongoDatabase db = client.GetDatabase("CitiesDatabase");
+            var cityCollection = db.GetCollection<City>("Cities");
+            var res = cityCollection.Find(_ => true).ToListAsync();
+            return res;
         }
 
-        // GET api/values/5
+        // GET api/values/name
         [HttpGet("{name}")]
-        public ActionResult<string> Get(string name)
+        public ActionResult<City> Get(string name)
         {
-            return "value";
+            var client = Connector.Connect();
+            IMongoDatabase db = client.GetDatabase("CitiesDatabase");
+            var cityCollection = db.GetCollection<City>("Cities");
+            var res = cityCollection.Find(c => c.Name.Equals(name)).First();
+            return res;
         }
 
         // POST api/values

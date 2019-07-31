@@ -33,3 +33,5 @@ bower_components/
 .idea
 .vs
 *.sln
+*.dll
+*.pdb
